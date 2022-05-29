@@ -1,0 +1,39 @@
+ĐỀ TÀI THƯ VIỆN!
+ĐỒ ÁN NÀY, TỤI MÌNH ĐƯỢC 6 VỚI 8 ĐIỂM! (LÀM 2 NGƯỜI)
+
+Chức năng 1:
+	Thêm độc giả -> Cách tạo mã thẻ ngẫu nhiên (dùng 1 notepad riêng để chứa các số ngẫu nhiên không trùng, mỗi lần xài chỉ lần lấy số cuối!)
+	Xóa độc giả -> Không thể xóa khi độc giả đã từng mượn sách
+	Hiệu chỉnh độc giả -> Cho hiệu chỉnh mọi thứ trừ mã độc giả
+Chức năng 3:
+	Đánh mã sách theo quy ước:	ISBN_stt
+	Trong câu này vẫn phải làm 3 chức năng: thêm/ xóa/ hiệu chỉnh đầu sách
+		Thêm đầu sách -> Tự động đánh mã sách của đầu sách đó!
+		Xóa đầu sách -> Không thể xóa sách đã từng được mượn
+		Hiệu chỉnh đầu sách -> Không cho sửa ISBN
+				    -> Cho phép thêm số lượng sách trong đầu sách đó! (Thầy muốn là người dùng được nhập thêm bao nhiêu cuốn)
+Chức năng 4:
+	Nếu người dùng thêm thể loại thì phần này vẫn phải có thêm thể loại đó!
+Chức năng 5:
+	Thầy yêu cầu tìm kiếm tên sách theo dạng nhúng -> người dùng nhập tới đâu sẽ hiện ra các sách có liên quan đến đó!
+	-> Phần này mình dùng hàm find có sẵn trong thư viện string để làm
+Chức năng 6:
+	Người dùng được chọn sách theo danh mục sách
+	Không được mượn cùng lúc 2 cuốn cùng đầu sách (có thể mượn lại cuốn đó nếu đã trả rồi)
+Chức năng 7:
+	Sẽ có hai cách trả sách
+		-> Trả lại sách đã mượn
+		-> Báo mất sách (Sẽ có 2 trường hợp cho việc mất sách)
+			-> Đền
+			-> Không đền -> Khóa thẻ
+Chức năng 9:
+	Câu này nhóm mình làm sai ý thầy rồi :((
+Chức năng 10:
+	Nếu như cuốn thứ 11, 12, 13, 14 ... có lượt mượn bằng với cuốn thứ 10 thì vẫn phải in ra
+Chức năng 11:
+	Dùng để mở thẻ cho những bạn độc giả làm mất sách nhưng không thể đền ngay lúc đó mà sẽ đền sau!
+
+Câu hỏi phụ của tụi mình về đồ thị!
+	Định nghĩa định trụ?
+	Làm sao để biết đỉnh đó là đỉnh trụ trong 1 đồ thị?
+	Nếu bỏ 1 đỉnh trong đồ thị thì phải làm sao?
